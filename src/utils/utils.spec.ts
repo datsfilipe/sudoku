@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import { generateSudokuBoard } from "./generateBoard";
 import { fillBoard } from "./fillBoard";
 import { checkSolved } from "./checkSolved";
