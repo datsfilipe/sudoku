@@ -10,6 +10,11 @@
   justify-content: center;
 }
 
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
 .board {
   background-color: #1a1a1a;
   color: #fff;

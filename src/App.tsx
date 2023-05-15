@@ -3,6 +3,7 @@ import { generateSudokuBoard } from './utils/generateBoard'
 import { checkSolved } from './utils/checkSolved'
 import { nullifyValues } from './utils/nullifyValues'
 import './App.css'
+import { Title } from './components/title'
 
 function App() {
   const boardOriginal = useRef<Board>(generateSudokuBoard());
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <>
+      <Title />
       <div className="board">
         {board.map((square, i) => (
           <div className="square" key={i}>
