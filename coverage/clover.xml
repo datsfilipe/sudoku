@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684109344087" clover="3.2.0">
+  <project timestamp="1684109344087" name="All files">
+    <metrics statements="84" coveredstatements="80" conditionals="15" coveredconditionals="14" methods="12" coveredmethods="11" elements="111" coveredelements="105" complexity="0" loc="84" ncloc="84" packages="2" files="7" classes="7"/>
+    <package name="src">
+      <metrics statements="21" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="6" coveredmethods="5"/>
+      <file name="App.tsx" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/App.tsx">
+        <metrics statements="21" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="6" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="22" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="32" count="81" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="63" coveredstatements="63" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="6"/>
+      <file name="checkSolved.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/checkSolved.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="83" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="fillBoard.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/fillBoard.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="26736" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="35" type="stmt"/>
+        <line num="9" count="26701" type="stmt"/>
+        <line num="10" count="26701" type="stmt"/>
+        <line num="11" count="26701" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="2000" type="stmt"/>
+        <line num="13" count="2000" type="stmt"/>
+        <line num="16" count="26701" type="stmt"/>
+        <line num="17" count="26701" type="stmt"/>
+        <line num="18" count="234017" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="26648" type="stmt"/>
+        <line num="20" count="26648" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="1363" type="stmt"/>
+        <line num="26" count="25338" type="stmt"/>
+        <line num="27" count="25338" type="stmt"/>
+      </file>
+      <file name="generateBoard.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/generateBoard.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="63" type="stmt"/>
+        <line num="8" count="63" type="stmt"/>
+        <line num="9" count="567" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+      </file>
+      <file name="isValid.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/isValid.ts">
+        <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="234019" type="stmt"/>
+        <line num="3" count="1369553" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="140729" type="stmt"/>
+        <line num="8" count="93290" type="stmt"/>
+        <line num="9" count="652972" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="55689" type="stmt"/>
+        <line num="14" count="37601" type="stmt"/>
+        <line num="15" count="37601" type="stmt"/>
+        <line num="16" count="37601" type="stmt"/>
+        <line num="17" count="101938" type="stmt"/>
+        <line num="18" count="295197" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="10952" type="stmt"/>
+        <line num="24" count="26649" type="stmt"/>
+      </file>
+      <file name="nullifyValues.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/nullifyValues.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="108" type="stmt"/>
+        <line num="6" count="108" type="stmt"/>
+        <line num="7" count="108" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="80" type="stmt"/>
+        <line num="9" count="80" type="stmt"/>
+      </file>
+      <file name="shuffle.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/shuffle.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="26702" type="stmt"/>
+        <line num="3" count="213612" type="stmt"/>
+        <line num="4" count="213612" type="stmt"/>
+        <line num="6" count="26702" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
