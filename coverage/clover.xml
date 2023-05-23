@@ -1,115 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684110921085" clover="3.2.0">
-  <project timestamp="1684110921086" name="All files">
-    <metrics statements="83" coveredstatements="79" conditionals="15" coveredconditionals="14" methods="12" coveredmethods="11" elements="110" coveredelements="104" complexity="0" loc="83" ncloc="83" packages="2" files="7" classes="7"/>
+<coverage generated="1684852608248" clover="3.2.0">
+  <project timestamp="1684852608249" name="All files">
+    <metrics statements="216" coveredstatements="197" conditionals="52" coveredconditionals="49" methods="12" coveredmethods="8" elements="280" coveredelements="254" complexity="0" loc="216" ncloc="216" packages="3" files="8" classes="8"/>
     <package name="src">
-      <metrics statements="20" coveredstatements="16" conditionals="3" coveredconditionals="2" methods="6" coveredmethods="5"/>
+      <metrics statements="107" coveredstatements="88" conditionals="13" coveredconditionals="10" methods="5" coveredmethods="1"/>
       <file name="App.tsx" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/App.tsx">
-        <metrics statements="20" coveredstatements="16" conditionals="3" coveredconditionals="2" methods="6" coveredmethods="5"/>
+        <metrics statements="107" coveredstatements="88" conditionals="13" coveredconditionals="10" methods="5" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="22" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="30" count="9" type="stmt"/>
-        <line num="32" count="81" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="70" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+        <line num="75" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="76" count="9" type="stmt"/>
+        <line num="77" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="78" count="81" type="cond" truecount="2" falsecount="0"/>
+        <line num="79" count="81" type="stmt"/>
+        <line num="80" count="81" type="stmt"/>
+        <line num="81" count="81" type="stmt"/>
+        <line num="82" count="81" type="stmt"/>
+        <line num="83" count="81" type="cond" truecount="2" falsecount="0"/>
+        <line num="84" count="81" type="stmt"/>
+        <line num="85" count="81" type="cond" truecount="2" falsecount="0"/>
+        <line num="86" count="81" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="81" type="stmt"/>
+        <line num="97" count="81" type="stmt"/>
+        <line num="98" count="9" type="stmt"/>
+        <line num="99" count="9" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="104" count="2" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="title.tsx" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/components/title.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.utils">
-      <metrics statements="63" coveredstatements="63" conditionals="12" coveredconditionals="12" methods="6" coveredmethods="6"/>
+      <metrics statements="102" coveredstatements="102" conditionals="38" coveredconditionals="38" methods="6" coveredmethods="6"/>
       <file name="checkSolved.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/checkSolved.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
+        <metrics statements="14" coveredstatements="14" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="4" type="cond" truecount="3" falsecount="0"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="11" type="stmt"/>
-        <line num="8" count="85" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="83" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="83" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="9" type="cond" truecount="1" falsecount="0"/>
         <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
       <file name="fillBoard.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/fillBoard.ts">
-        <metrics statements="18" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="88" type="stmt"/>
-        <line num="5" count="48149" type="cond" truecount="1" falsecount="0"/>
+        <metrics statements="28" coveredstatements="28" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="49241" type="cond" truecount="1" falsecount="0"/>
         <line num="6" count="34" type="stmt"/>
-        <line num="9" count="48115" type="stmt"/>
-        <line num="10" count="48115" type="stmt"/>
-        <line num="11" count="48115" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="3261" type="stmt"/>
-        <line num="13" count="3261" type="stmt"/>
-        <line num="16" count="48115" type="stmt"/>
-        <line num="17" count="48115" type="stmt"/>
-        <line num="18" count="426656" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="48061" type="stmt"/>
-        <line num="20" count="48061" type="cond" truecount="1" falsecount="0"/>
-        <line num="21" count="1400" type="stmt"/>
-        <line num="26" count="46715" type="stmt"/>
-        <line num="27" count="46715" type="stmt"/>
+        <line num="7" count="34" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="49207" type="stmt"/>
+        <line num="9" count="49207" type="stmt"/>
+        <line num="10" count="49207" type="stmt"/>
+        <line num="11" count="49241" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="3167" type="stmt"/>
+        <line num="13" count="3167" type="stmt"/>
+        <line num="14" count="3167" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="49207" type="stmt"/>
+        <line num="16" count="49207" type="stmt"/>
+        <line num="17" count="49241" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="436610" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="49153" type="stmt"/>
+        <line num="20" count="49153" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="1355" type="stmt"/>
+        <line num="22" count="1355" type="stmt"/>
+        <line num="23" count="49153" type="stmt"/>
+        <line num="24" count="436610" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="47852" type="stmt"/>
+        <line num="26" count="47852" type="stmt"/>
+        <line num="27" count="47852" type="stmt"/>
+        <line num="28" count="47852" type="stmt"/>
       </file>
       <file name="generateBoard.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/generateBoard.ts">
-        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-        <line num="3" count="7" type="stmt"/>
+        <metrics statements="16" coveredstatements="16" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="4" count="7" type="stmt"/>
-        <line num="6" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="7" count="63" type="stmt"/>
-        <line num="8" count="63" type="stmt"/>
+        <line num="8" count="63" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="567" type="stmt"/>
+        <line num="10" count="567" type="stmt"/>
+        <line num="11" count="63" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
         <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
         <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
       </file>
       <file name="isValid.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/isValid.ts">
-        <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="1" count="426658" type="stmt"/>
-        <line num="2" count="426658" type="stmt"/>
-        <line num="3" count="2496827" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="249160" type="stmt"/>
-        <line num="8" count="177498" type="stmt"/>
-        <line num="9" count="1242701" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="107331" type="stmt"/>
-        <line num="14" count="70167" type="stmt"/>
-        <line num="15" count="70167" type="stmt"/>
-        <line num="16" count="70167" type="stmt"/>
-        <line num="17" count="189036" type="stmt"/>
-        <line num="18" count="546764" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="22105" type="stmt"/>
-        <line num="24" count="48062" type="stmt"/>
+        <metrics statements="25" coveredstatements="25" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="436612" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="2566888" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="247896" type="stmt"/>
+        <line num="5" count="247896" type="stmt"/>
+        <line num="6" count="2566888" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="188716" type="stmt"/>
+        <line num="8" count="436612" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="1282196" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="118675" type="stmt"/>
+        <line num="11" count="118675" type="stmt"/>
+        <line num="12" count="1282196" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="70041" type="stmt"/>
+        <line num="14" count="70041" type="stmt"/>
+        <line num="15" count="70041" type="stmt"/>
+        <line num="16" count="436612" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="188421" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="544453" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="20887" type="stmt"/>
+        <line num="20" count="20887" type="stmt"/>
+        <line num="21" count="544453" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="167534" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="49154" type="stmt"/>
+        <line num="24" count="49154" type="stmt"/>
+        <line num="25" count="49154" type="stmt"/>
       </file>
       <file name="nullifyValues.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/nullifyValues.ts">
-        <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
+        <metrics statements="12" coveredstatements="12" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="126" type="stmt"/>
-        <line num="6" count="126" type="stmt"/>
-        <line num="7" count="126" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="114" type="stmt"/>
+        <line num="6" count="114" type="stmt"/>
+        <line num="7" count="114" type="cond" truecount="1" falsecount="0"/>
         <line num="8" count="80" type="stmt"/>
         <line num="9" count="80" type="stmt"/>
+        <line num="10" count="80" type="stmt"/>
+        <line num="11" count="114" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
       </file>
       <file name="shuffle.ts" path="/home/datsfilipe/www/s/github.com/datsfilipe/sudoku/src/utils/shuffle.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="48116" type="stmt"/>
-        <line num="2" count="48116" type="stmt"/>
-        <line num="3" count="384924" type="stmt"/>
-        <line num="4" count="384924" type="stmt"/>
-        <line num="6" count="48116" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="49208" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="393660" type="stmt"/>
+        <line num="4" count="393660" type="stmt"/>
+        <line num="5" count="393660" type="stmt"/>
+        <line num="6" count="49208" type="stmt"/>
+        <line num="7" count="49208" type="stmt"/>
       </file>
     </package>
   </project>
