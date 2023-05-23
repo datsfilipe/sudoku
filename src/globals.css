@@ -1,0 +1,170 @@
+:root {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #181818;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-width: 100vw;
+  display: flex;
+}
+
+a {
+  color: #fd3333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #ffffff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 30%;
+  height: 100vh;
+  background-color: #212121;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar .instructions {
+  padding: 2rem;
+}
+
+.sidebar .instructions .actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: #1a1a1a;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+.sidebar-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.board {
+  background-color: #1a1a1a;
+  color: #fff;
+  width: 30rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.square {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+  border: 1px solid #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.filled {
+  background-color: #333;
+}
+
+.empty {
+  background-color: #1a1a1a;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.45rem;
+  text-align: center;
+  padding: 0;
+}
+
+.slider {
+  width: 100%;
+  height: 20%;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.45rem;
+  text-align: center;
+  padding: 0;
+}
